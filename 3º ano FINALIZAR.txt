@@ -1,0 +1,208 @@
+3º ano FINALIZAR
+
+
+🤖 ROBÓTICA EDUCACIONAL
+🔩 Estrutura (Móvel e Rígida)
+Estrutura Rígida
+
+Base de sustentação
+
+Equilíbrio
+
+Resistência
+
+Estrutura Móvel
+
+Rodas
+
+Engrenagens
+
+Eixos
+
+Sistemas de transmissão
+
+Atividade Mão na Massa:
+Construção de veículo simples com foco em estabilidade e movimento controlado.
+
+⚙ OS 3 PILARES DA ROBÓTICA
+1️⃣ Mecânica
+
+Movimento
+
+Engrenagem
+
+Força
+
+Estrutura
+
+2️⃣ Elétrica
+
+Fonte de energia
+
+Motor
+
+Circuito simples
+
+Polaridade básica
+
+3️⃣ Computação
+
+Programação em blocos
+
+Sequência lógica
+
+Laços de repetição
+
+Condições
+
+Integração prática dos três pilares em pequenos projetos.
+
+💻 PROGRAMAÇÃO – Code.org (Curso C e D)
+
+Sequência estruturada
+
+Laços de repetição
+
+Eventos
+
+Condições
+
+Resolução de problemas progressivos
+
+Introdução a conceitos de eficiência
+
+Desenvolve:
+
+Planejamento
+
+Raciocínio lógico
+
+Persistência
+
+Correção de erro
+
+🧩 ATIVIDADES DESPLUGADAS
+
+Criação de algoritmos escritos.
+
+Simulação de circuito elétrico com cartões.
+
+Jogo de decomposição (resolver desafios dividindo em partes).
+
+Planejamento em grupo antes da montagem.
+
+Desafio “otimize o caminho”.
+
+Criação de mapa com instruções condicionais.
+
+🖥 ATIVIDADES PLUGADAS
+
+Programação no Code.org.
+
+Simulações digitais.
+
+Pequenos projetos interativos.
+
+Criação de animações simples.
+
+Testes e depuração de código.
+
+🔐 SEGURANÇA NA INTERNET
+
+Trabalhar:
+
+Identidade digital.
+
+Dados pessoais.
+
+Cyberbullying (noção preventiva).
+
+Verificação básica de informações.
+
+Tempo saudável de uso.
+
+Atividade prática:
+Produção de cartaz digital sobre uso seguro da internet.
+
+🌍 MUNDO DIGITAL
+
+O que é sistema digital?
+
+Como funciona a internet?
+
+O que é armazenamento?
+
+Diferença entre software e hardware.
+
+Conceito inicial de automação.
+
+🛠 PROJETOS MÃO NA MASSA
+
+Construção de veículo com movimento controlado.
+
+Projeto de robô simples com desafio específico.
+
+Desenvolvimento de jogo simples no Code.org.
+
+Integração entre montagem física e lógica digital.
+
+📊 AVALIAÇÃO
+
+Avaliação contínua baseada em:
+
+Organização do raciocínio.
+
+Capacidade de decomposição.
+
+Construção de algoritmos claros.
+
+Aplicação prática dos três pilares.
+
+Trabalho em equipe.
+
+Postura ética digital.
+
+🌟 RESULTADO ESPERADO AO FINAL DO 3º ANO
+
+O aluno deverá ser capaz de:
+
+Planejar antes de executar.
+
+Criar algoritmos estruturados.
+
+Aplicar laços e condições simples.
+
+Compreender estrutura móvel e rígida.
+
+Identificar os três pilares da robótica.
+
+Programar desafios básicos com autonomia.
+
+Demonstrar responsabilidade digital.
+
+Trabalhar de forma colaborativa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+Próximo passo:
+
+🔹 Criar um template base e duplicar para todas as séries
+
+🔹 Colocar um rodapé institucional
+
+🔹 Inserir identidade visual da escola
+
+🔹 Ou preparar versão para impressão
+
+<figure class="imagem-destaque">
+                            <img src="3.png" alt="Imagem IA">
+                            <figcaption>Imagem gerada por IA</figcaption>
+                        </figure>
+                        
+                        
+                        
+                        
+.imagem-destaque {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.imagem-destaque img {
+    width: 100%;
+    max-width: 700px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 12px;
+    height: 350px
+}
+
+
+.imagem-destaque img:hover {
+    transform: scale(1.05);
+}
