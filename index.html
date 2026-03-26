@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planejamento Anual 2026 | Informática & Robótica</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for premium icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="menu">
+        <a href="index.html"><i class="fas fa-home"></i> Início</a>
+        <a href="#sobre"><i class="fas fa-info-circle"></i> Sobre</a>
+        <a href="#conteudos"><i class="fas fa-laptop-code"></i> Conteúdos</a>
+    </nav>
+</header>
+
+<main>
+
+    <section class="topo">
+        <h1>Planejamento Anual 2026<br><span>Informática & Robótica Educativa</span></h1>
+        <p>Preparando a nova geração para os desafios do futuro através da tecnologia, lógica de programação e automação robótica.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Nossa Missão</h2>
+        <figure class="banner">
+            <img src="2.png" alt="Informática Educativa IA">
+            <figcaption>Exploração interativa e criatividade no aprendizado digital</figcaption>
+        </figure>
+
+        <article>
+            <h3><i class="fas fa-robot"></i> Desenvolvendo Habilidades do Futuro</h3>
+            <p>
+                O planejamento anual de Informática e Robótica tem como objetivo principal desenvolver nos alunos o pensamento lógico, a criatividade, a autonomia e o uso consciente e responsável da tecnologia. As atividades são desenhadas de forma progressiva e imersiva.
+            </p>
+            <p>
+                No foco inicial, trabalhamos o letramento digital. Em seguida, iniciamos a lógica de programação através de plataformas interativas (como Code.org). No terceiro momento, introduzimos a mágica da robótica educacional com montagem e movimentação.
+            </p>
+            <p>
+                A tecnologia deixa de ser apenas uma ferramenta de consumo e passa a ser uma aliada para formar criadores críticos, engajados e inovadores.
+            </p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Base Nacional Comum Curricular</h2>
+        <article class="glass-card" style="text-align: center;">
+            <p>Nosso conteúdo é totalmente alinhado com as diretrizes e competências da BNCC Computação.</p>
+            <figure style="margin-bottom: 20px;">
+                <img src="bncc.png" alt="BNCC Computação em PDF" style="max-width: 300px;">
+            </figure>
+            <a href="https://drive.google.com/file/d/1I-4pd70odOUdjEQXsxJhS2jtABZU17_e/view?usp=sharing" target="_blank" class="link-destaque">
+                <i class="fas fa-file-pdf" style="margin-right: 10px;"></i> Acessar Documento Oficial da BNCC
+            </a>
+        </article>
+    </section>
+
+    <section id="conteudos">
+        <h2>Conteúdos Programáticos</h2>
+
+        <figure class="banner">
+            <img src="5.png" alt="Robótica IA">
+            <figcaption>Estruturas e Engrenagens - Uma jornada incrível</figcaption>
+        </figure>
+
+        <p style="text-align: center; color: #a0aec0; max-width: 600px; margin: 0 auto;">Selecione uma série para visualizar as competências, os projetos práticos e os métodos de avaliação elaborados para 2026.</p>
+
+        <ul class="lista-series">
+            <li><a href="jardim.html" class="serie-link"><i class="fas fa-seedling" style="margin-right: 10px;"></i> JARDIM I e II</a></li>
+            <li><a href="1ano.html" class="serie-link"><i class="fas fa-star" style="margin-right: 10px;"></i> 1º Ano</a></li>
+            <li><a href="2ano.html" class="serie-link"><i class="fas fa-rocket" style="margin-right: 10px;"></i> 2º Ano</a></li>
+            <li><a href="3ano.html" class="serie-link"><i class="fas fa-cogs" style="margin-right: 10px;"></i> 3º Ano</a></li>
+            <li><a href="4ano.html" class="serie-link"><i class="fas fa-microchip" style="margin-right: 10px;"></i> 4º Ano</a></li>
+            <li><a href="5ano.html" class="serie-link"><i class="fas fa-gamepad" style="margin-right: 10px;"></i> 5º Ano</a></li>
+        </ul>
+
+    </section>
+
+</main>
+
+<footer class="rodape">
+    <div class="nome">
+        Profª <span>Synthia Duarte</span> © 2026
+    </div>
+    <p style="color: #94a3b8; font-size: 1.1rem; letter-spacing: 1px; margin-bottom: 20px;">
+        Docente Especialista em Informática & Robótica Educativa
+    </p>
+
+    <div class="contatos">
+        <a href="mailto:profsynthia.fc.duarte@gmail.com">
+            <i class="fas fa-envelope"></i> profsynthia.fc.duarte@gmail.com
+        </a>
+        <a href="https://www.tiktok.com/@robtica.livre?_r=1&_t=ZS-941yz8WfahL" target="_blank">
+            <i class="fab fa-tiktok"></i> TikTok @robtica.livre
+        </a>
+    </div>
+</footer>
+
+<!-- Efeitos Sonoros Elegantes (Hover) -->
+<audio id="hoverSound" src="hover.mp3" preload="auto"></audio>
+
+<script>
+    // Sound playback logic
+    const sound = document.getElementById("hoverSound");
+
+    document.querySelectorAll(".serie-link").forEach(link => {
+        link.addEventListener("mouseenter", () => {
+            sound.currentTime = 0;
+            // Catch play errors due to browser autoplay policies
+            let playPromise = sound.play();
+            if (playPromise !== undefined) {
+                playPromise.catch(error => { /* Ignore interaction block on pure hover without click */ });
+            }
+        });
+    });
+
+    // Intersection Observer for scroll animations (Premium touch)
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.animationPlayState = 'running';
+                entry.target.style.opacity = 1;
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('section').forEach(section => {
+        section.style.animationPlayState = 'paused';
+        section.style.opacity = 0;
+        observer.observe(section);
+    });
+</script>
+
+</body>
+</html>
